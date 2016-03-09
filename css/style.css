@@ -248,7 +248,7 @@ background-image: url("../images/section1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
-	height:65vh;
+	height:70vh;
 	margin: 0;
 	padding:0;
 }
@@ -258,12 +258,13 @@ background-image: url("../images/section1.jpg");
 	font-size:64px;
 	font-weight:700;
 	line-height:72px;
-	padding-top: 50px;
+	padding: 50px 70px 0px 50px;
+	text-align:right;
 }
 
 .rawCottonText{
 	color: white;
-	padding:20px 0px 70px 10px;
+	padding:20px 70px 70px 60px;
 	font-size:15px;
 	font-weight:500;
 	text-align:justify;	
@@ -271,7 +272,7 @@ background-image: url("../images/section1.jpg");
 .cotton-overlay {
     background-image: url("../images/pattern1.png");
     background-repeat: repeat;
-    height:65vh;
+    height:70vh;
     position: absolute;
     left: 0px;
     margin: 0;
@@ -279,8 +280,91 @@ background-image: url("../images/section1.jpg");
     z-index: 0;
 }
 .sectionYarn{
-	background-color: #f6f6f6;
-	height: 100vh;
+	background-image: url("../images/yarnBack.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.yarnHead{
+	font-size:82px;
+	padding:80px 50px 0px 50px;
+}
+.yarnText{
+	padding:10px 50px 0px 50px;
+	width:50%;
+	font-size:16px;
+	line-height:34px;
+	text-align:justify;
+}
+.machineHead{
+	font-size:82px;
+	padding:80px 50px 0px 50px;
+	text-align: right;
+}
+.machinery{
+	width:100%;
+	background-color:#eeeced;
+}
+.machineAbout{
+	height: 150px;
+}
+.container-fluid{
+	margin:0;
+	padding:0;
+}
+.machine1, .machine2, .machine3, .machine4, .machine5{
+	width: 19.8%;
+	height: 450px;
+	display:-webkit-inline-box;
+	margin:-1px -2px -1px 1px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition:.5s;
+}
+.machine1{
+	background-image: url("../images/m1.jpg");
+}
+.machine2{
+	background-image: url("../images/m2.jpg");
+}
+.machine3{
+	background-image: url("../images/m3.jpg");
+}
+.machine4{
+	background-image: url("../images/m1.jpg");
+}
+.machine5{
+	background-image: url("../images/m1.jpg");
+}
+.description1, .description2, .description3, .description4, .description5{
+	height:150px;
+	width:100%;
+	margin-top:150px;
+	padding:10px;
+}
+.description1{
+	background-color: rgba(0,0,0,.8);
+
+}
+.desHead{
+	color:white;
+	font-size:20px;
+}
+.desDetail{
+	color:white;
+	font-size:14px;
+	width:100%;
+}
+.description2{
+	background-color: rgba(50,50,50,.8);
+}
+.description3{
+	background-color: rgba(100,100,100,.8);
+}
+.description4{
+	background-color: rgba(50,50,50,.8);
+}
+.description5{
+	background-color: rgba(0,0,0,.8);
 }
 /*Services style start*/
 .sectionServices{

@@ -41,4 +41,80 @@ $(document).ready(function(){
    	$(this).css("border-width", "0px 0px 0px 6px");
    	$(this).css("background-color", "rgba(255,255,255,.8)");
    });
+
+
+   $(".machine1").mouseenter(function(){
+   	$(this).css("width","60%");
+      $(".machine2").css("width","9.8%");
+   	$(".machine3").css("width","9.8%");
+   	$(".machine4").css("width","9.8%");
+   	$(".machine5").css("width","9.8%");
+   });
+   $(".machine1").mouseleave(function(){
+   	$(this).css("width","20%");
+   	$(".machine2").css("width","19.8%");
+   	$(".machine3").css("width","19.8%");
+   	$(".machine4").css("width","19.8%");
+   	$(".machine5").css("width","19.8%");
+   });
+
+    $(".machine2").mouseenter(function(){
+   	$(this).css("width","60%");
+   	$(".machine1").css("width","9.8%");
+   	$(".machine3").css("width","9.8%");
+   	$(".machine4").css("width","9.8%");
+   	$(".machine5").css("width","9.8%");
+   });
+   $(".machine2").mouseleave(function(){
+   	$(this).css("width","20%");
+   	$(".machine1").css("width","19.8%");
+   	$(".machine3").css("width","19.8%");
+   	$(".machine4").css("width","19.8%");
+   	$(".machine5").css("width","19.8%");
+   });
+
+    $(".machine3").mouseenter(function(){
+   	$(this).css("width","60%");
+   	$(".machine1").css("width","9.8%");
+   	$(".machine2").css("width","9.8%");
+   	$(".machine4").css("width","9.8%");
+   	$(".machine5").css("width","9.8%");
+   });
+   $(".machine3").mouseleave(function(){
+   	$(this).css("width","20%");
+   	$(".machine1").css("width","19.8%");
+   	$(".machine2").css("width","19.8%");
+   	$(".machine4").css("width","19.8%");
+   	$(".machine5").css("width","19.8%");
+   });
+
+    $(".machine4").mouseenter(function(){
+   	$(this).css("width","60%");
+   	$(".machine1").css("width","9.8%");
+   	$(".machine2").css("width","9.8%");
+   	$(".machine3").css("width","9.8%");
+   	$(".machine5").css("width","9.8%");
+   });
+   $(".machine4").mouseleave(function(){
+   	$(this).css("width","20%");
+   	$(".machine1").css("width","19.8%");
+   	$(".machine2").css("width","19.8%");
+   	$(".machine3").css("width","19.8%");
+   	$(".machine5").css("width","19.8%");
+   });
+
+    $(".machine5").mouseenter(function(){
+   	$(this).css("width","60%");
+   	$(".machine1").css("width","9.8%");
+   	$(".machine2").css("width","9.8%");
+   	$(".machine3").css("width","9.8%");
+   	$(".machine4").css("width","9.8%");
+   });
+   $(".machine5").mouseleave(function(){
+   	$(this).css("width","20%");
+   	$(".machine1").css("width","19.8%");
+   	$(".machine2").css("width","19.8%");
+   	$(".machine3").css("width","19.8%");
+   	$(".machine4").css("width","19.8%");
+   });
 });
